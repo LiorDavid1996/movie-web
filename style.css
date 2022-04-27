@@ -1,0 +1,67 @@
+
+
+.main-container {
+    color: white;
+    
+}
+
+.home {
+    height: 60vh;
+    background-image: url(images/home-bg.jpeg);
+    background-size: cover;
+
+}
+
+#home-bg {
+    filter: blur(2px);
+}
+
+.home-text {
+    margin-top: 150px;
+    align-items: center;
+}
+
+.home-carusela {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 5px solid white;
+    height: 40vh;
+    width: 100%;
+    background-color: black;
+}
+
+#top10 {
+    color: white;
+}
+
+.carusela-images{
+    /* background-image: url(images/ambulance.webp); */
+    background-size: cover;
+    height: 25vh;
+    width: 70vw;
+    animation-name: carusela;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+
+  @keyframes carusela {
+    
+    0% {background-image: url(images/ambulance.webp);}
+    25% {background-image: url(images/spiderman.webp);}
+    50% {background-image: url(images/king-rich.webp);}
+    75% {background-image: url(images/batman.jpg);}
+    100% {background-image: url(images/lionking.jpg);}
+}  
+
+
+
+.footer {
+    
+}
+
+.footer-img {
+    height: 3vh;
+    width: 6vw;
+}
