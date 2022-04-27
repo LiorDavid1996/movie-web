@@ -1,16 +1,29 @@
 
 
 .main-container {
+    position: relative;
     color: white;
     
 }
-
 .home {
+    position: relative;
     height: 60vh;
+    width: 100vw;
     background-image: url(images/home-bg.jpeg);
     background-size: cover;
+    
+  }
+.home::before {
+    height: 60vh;
+    width: 100vw;
+    background-image: url(images/home-bg.jpeg);
+    filter: blur(1px);
+    background-size: cover;
+    position: absolute;
+    content: "";
 
 }
+
 
 #home-bg {
     filter: blur(2px);
@@ -28,7 +41,7 @@
     border-top: 5px solid white;
     height: 40vh;
     width: 100%;
-    background-color: black;
+    background-color: white;
 }
 
 #top10 {
@@ -36,7 +49,7 @@
 }
 
 .carusela-images{
-    /* background-image: url(images/ambulance.webp); */
+    background-image: url(images/ambulance.webp);
     background-size: cover;
     height: 25vh;
     width: 70vw;
