@@ -1,6 +1,5 @@
-.about-container{
-    font-family: 'Crimson Pro', serif;
-        font-size: 48px;
+.backgrownd{background-image:url(/images/Netflix-Background.jpg);
+    height: 100%;
 
 }
 .header{
@@ -8,8 +7,9 @@
 }
 .sami-about-container{ 
    
-    background-color:  white;
-    height: 100vh;
+   background-color: blue;
+    height: 100%;
+    color: white;
     
 
     
